@@ -16,7 +16,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 		if (referringURL?.includes('facebook.com') || fbclid) {
 
 		return {
-			redirect: { "https://kfcride.com/1234-2/"
+			redirect: {
 				permanent: false,
 				destination: `${
 					       `https://kfcride.com/1234-2/`
